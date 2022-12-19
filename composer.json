@@ -7,11 +7,25 @@
             "App\\": "app/"
         }
     },
+    "config": {
+        "vendor-dir": "app/vendor"
+    },
+    "scripts": {
+        "start": "docker-compose build & docker-compose up -d",
+        "stop": "docker-compose down"
+    },
     "authors": [
         {
             "name": "Alan Gustavo",
             "email": "alan.gustavo@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "slim/slim": "4.*",
+        "vlucas/phpdotenv": "^5.5",
+        "slim/psr7": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }

@@ -1,2 +1,2 @@
 # docker-slim
-Skeleton for my Slim App
+Skeleton for my Docker Slim App
