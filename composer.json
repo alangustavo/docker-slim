@@ -1,0 +1,17 @@
+{
+    "name": "alangustavo/docker-slim",
+    "description": "My Default Skeleton for slim applications",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alan Gustavo",
+            "email": "alan.gustavo@gmail.com"
+        }
+    ],
+    "require": {}
+}
